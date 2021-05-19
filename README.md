@@ -13,3 +13,7 @@
   ## Uso de imagens e paleta de cores
   Para o projeto me utilizei do *adobe colors* e do site *collors* para ter uma visão boa da utilização da paleta de cores (utilizei-me de 5).
   Para imagens peguei uma no google, porém utilizando a licença *creative commons* onde não há custos ou violações de imagens.
+  
+  ## Visão do projeto
+ 
+![ImagemFinal](https://user-images.githubusercontent.com/65839816/118882314-7160b580-b8ca-11eb-908c-c763bdbc42f4.png)
