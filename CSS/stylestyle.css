@@ -1,0 +1,146 @@
+:root{
+  --main-bg-color: rgba(228, 232, 235, 0.877);
+  --caixa-principal-color: white;
+  --primeiro-plano-color: rgb(63, 142, 252);
+  --segundo-plano-color: rgb(38, 103, 255);
+  --terceiro-plano-color: rgb(16, 37, 66);
+  --titulo-principal-color: rgb(50, 67, 118);
+  --titulo-secundario-color: rgb(173, 215, 246);
+  --botao-color: rgb(173, 215, 246);
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1em;
+  background-color: var(--main-bg-color);
+  font-family: 'Nunito', sans-serif;
+  background-image: url("/Imagens/imagem_fundo.jpg");
+  background-repeat: no-repeat;
+
+}
+
+div#principal{
+  background-color: var(--caixa-principal-color);
+  display: block;
+  text-align: center;
+  padding: 2em 3em;
+  margin-top: 10em;
+  margin-left: 30em;
+  margin-right: 30em;
+  border-radius: 0.3em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+  
+}
+
+.tituloPrincipal{
+  text-align: justify;
+  color: var(--titulo-principal-color);
+ 
+}
+
+.tituloSecundario{
+  text-align: justify;
+  color: var(--titulo-secundario-color);
+  
+}
+
+.descricaoPlano{
+  text-align: justify;
+}
+
+
+
+div#planos{
+  
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+div#primeiroPlano{
+  background-color: var(--primeiro-plano-color);
+  display: inline-block;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 1em;
+  margin-left: 20em;
+  color: white;
+  
+}
+
+div#primeiroPlano:hover{
+  top:-4px;
+  box-shadow:0 4px 3px #999;
+  transition: 1s;
+  
+}
+
+
+
+div#segundoPlano{
+  background-color: var(--segundo-plano-color);
+  display: inline-block;
+  
+  padding: 1em;
+  margin-right: 0em;
+  color: white;
+  
+}
+
+div#segundoPlano:hover{
+  top:-4px;
+  box-shadow:0 4px 3px #999;
+  transition: 1s;
+  
+}
+
+div#terceiroPlano{
+  background-color: var(--terceiro-plano-color);
+  display: inline-block;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-right: 20em;
+  padding: 1em;
+  color: white;
+}
+
+div#terceiroPlano:hover{
+  top:-4px;
+  box-shadow:0 4px 3px #999;
+  transition: 1s;
+  
+}
+
+
+
+h3{
+  text-align: justify;
+}
+.paragrafoDosPlanos{
+
+}
+
+button{
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  padding: 15px 20px;
+  border: 1px solid var(--titulo-secundario-color);
+  border-radius: 6px;
+  background-color: var(--titulo-secundario-color);
+  font-size: 18px;
+}
+
+.botao{
+  text-align: center;
+  
+}
+
+
+
+
