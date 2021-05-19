@@ -1,5 +1,3 @@
-# Projeto_Grid_Games
-Estudos de HTML e CSS com base em um serviço de streaming de jogos
 # Projeto Streaming de jogos
   Neste repositório se encontra um pequeno projeto de estudos para HTML e CSS. Projeto básico, porém feito sozinho (sem auxilío de vídeos ou trechos de código) e com apenas algumas pesquisas no google para determinados pontos.
 
